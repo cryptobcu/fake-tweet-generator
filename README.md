@@ -19,6 +19,7 @@ then run the project with..
 > npm run start
 
 ---
-
+## Tweet png example
 ![app image](./public/previews/exampletweet.png)
+## Website preview
 ![app image](./public/previews/websitepreview.png)
