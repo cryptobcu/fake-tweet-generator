@@ -50,11 +50,11 @@ export default function App() {
   const [lang, setLang] = useState('tr');
   const [image, takeScreenshot] = useScreenshot();
   const [langText, setLangText] = useState();
-  const [hour, setHour] = useState();
-  const [minute, setMinute] = useState();
-  const [day, setDay] = useState();
-  const [month, setMonth] = useState();
-  const [year, setYear] = useState();
+  const [hour, setHour] = useState(15);
+  const [minute, setMinute] = useState(15);
+  const [day, setDay] = useState(15);
+  const [month, setMonth] = useState("Oca");
+  const [year, setYear] = useState(2023);
   const getImage = () => takeScreenshot(tweetRef.current);
 
   useEffect(() => {
